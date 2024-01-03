@@ -467,7 +467,7 @@
 				label = "rgb";
 				qcom,id = <3>;
 				qcom,mode = "pwm";
-				pwms = <&pmi8998_pwm_5 0 1000000>;
+				pwms = <&pmi8998_pwm_5 0 0>;
 				qcom,pwm-us = <1000>;
 				qcom,max-current = <12>;
 				qcom,default-state = "off";
@@ -480,7 +480,7 @@
 				label = "rgb";
 				qcom,id = <4>;
 				qcom,mode = "pwm";
-				pwms = <&pmi8998_pwm_4 0 1000000>;
+				pwms = <&pmi8998_pwm_4 0 0>;
 				qcom,pwm-us = <1000>;
 				qcom,max-current = <12>;
 				qcom,default-state = "off";
@@ -492,7 +492,7 @@
 				label = "rgb";
 				qcom,id = <5>;
 				qcom,mode = "pwm";
-				pwms = <&pmi8998_pwm_3 0 1000000>;
+				pwms = <&pmi8998_pwm_3 0 0>;
 				qcom,pwm-us = <1000>;
 				qcom,max-current = <12>;
 				qcom,default-state = "off";
